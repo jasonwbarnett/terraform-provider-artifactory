@@ -1,6 +1,6 @@
 # Xray Watch Resource
 
-Provides an Xray watch resource. 
+Provides an Xray watch resource.
 
 ## Example Usage
 
@@ -37,6 +37,7 @@ The top-level `resources` block contains a list of one or more resource objects 
 * `type` - (Required) Type of resource to be watched
 * `name` - (Required) A name describing the resource
 * `bin_mgr_id` - (Optional) The ID number of a binary manager resource
+* `repo_type` - (Optional) Type of repository (e.g. local or remote) to be watched
 * `filters` - (Optional) Nested argument describing filters to be applied. Defined below.
 
 #### filters
